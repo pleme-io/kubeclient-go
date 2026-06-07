@@ -3,7 +3,7 @@ module github.com/pleme-io/kubeclient-go
 go 1.25.0
 
 require (
-	github.com/pleme-io/k8sauthconfig-go v0.0.0
+	github.com/pleme-io/k8sauthconfig-go v0.1.0
 	k8s.io/api v0.35.0
 	k8s.io/apimachinery v0.35.0
 	k8s.io/client-go v0.35.0
@@ -52,6 +52,3 @@ require (
 	sigs.k8s.io/structured-merge-diff/v6 v6.3.0 // indirect
 	sigs.k8s.io/yaml v1.6.0 // indirect
 )
-
-// TEMP local override — remove once k8sauthconfig-go is published.
-replace github.com/pleme-io/k8sauthconfig-go => ../k8sauthconfig-go
